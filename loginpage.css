@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right,
+    orange,
+    red) ;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Oxanium', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding: 5% 20% 5% 20%;
+}
+.form{
+    background: white;
+    display: grid;
+    width:100%;
+    
+}
+.ctn1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    
+}
+.image{
+    width: 100%;
+}
+.logo{
+    padding: 10% 0 0 45%;
+}
+.header{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding: 0 0 0 70px;
+}
+p{
+    padding-left: 10px;
+    font-size: 15px;
+}
+button{
+    width: 70%;
+    background: white;
+    margin: 10px 0 10px 60px;
+    
+    border-radius: 10px;
+}
